@@ -18,7 +18,11 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": false,
     "paths": {
-      "@app": ["src/app"]
+      "@app": ["src/app"],
+
+      "@app/resources/*": ["src/app/resource/*"],
+
+      "@app/provider/mongodb": ["src/app/provider/mongodb"]
     }
   }
 }
