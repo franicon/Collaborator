@@ -20,7 +20,7 @@
     "paths": {
       "@app": ["src/app"],
 
-      "@app/resources/*": ["src/app/resource/*"],
+      "@app/resource/*": ["src/app/resource/*"],
 
       "@app/provider/mongodb": ["src/app/provider/mongodb"]
     }
